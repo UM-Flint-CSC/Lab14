@@ -10,10 +10,9 @@ double factorial(int);
 
 int main()
 { 
-		int n, k;
-		getInfo(n,k);
+	int n, k;
+	getInfo(n,k);
 		
-
     return 0;
 }
 
