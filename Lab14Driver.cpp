@@ -22,7 +22,7 @@ int main()
         cout.setf(ios::fixed);
         cout.precision(4);
         cout << "\nProbability of winning is " << ways;
-		cout.precision(0);
+	cout.precision(0);
         cout << "\nOdds of winning are 1 in " << (1/ways);
         cout << "\n\nWould you like to calculate the probability of another scenario? (y/n): ";
         cin >> again;
